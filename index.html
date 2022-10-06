@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+    <title>Pluviophile</title>
+<style>
+    * {
+        
+        margin: 0;
+        padding: 0;
+    }
+
+    body{
+        background-image: radial-gradient(white , grey, black);
+    }
+
+    .head{
+        padding: 40px;
+    }
+
+    h1, p{
+        color: white;
+        text-align: center;
+        font-family: 'Cinzel', serif;
+    }
+
+    
+
+    .con{
+        display: grid;
+        grid-template-columns: repeat(4 , 25vw);
+        grid-template-rows: repeat(4, 1fr);
+        gap: 3px;
+    }
+
+    img {
+        height: 24vh;
+        width: 24vw;
+        object-fit: cover;
+        transform: scale(1);
+        transition: all 2s;
+        filter: blur(4px) invert(90%);
+    }
+
+    img:hover{
+        z-index: 2;
+        transform: scale(1.2);
+        filter: none;
+    }
+
+    #i{
+        grid-row: 1/3 ;
+        height: 48vh;
+        
+    }
+
+    #f {
+        grid-row: 3/5 ;
+        grid-column: 4;
+        height: 48vh;
+    }
+
+    footer{
+        background-image:linear-gradient(grey, black 30%);
+        height: 200px;
+        width: 100%;
+    }
+
+    ul{
+        list-style: none;
+    }
+
+    .ser{
+        color: white;
+        text-align: center;
+        float: left;
+        margin-left: 30%;
+    }
+
+    .abo{
+        color: white;
+        text-align: center;
+        float: right;
+        margin-right: 30%;
+    }
+
+    .comp{
+        color: white;
+        text-align: center;
+    }
+
+    .sum{
+        padding-top: 6%;
+    }
+
+    h3{
+        font-family: 'Cinzel', serif;
+    }
+   
+</style>
+</head>
+<body>
+    <div class="head">
+        <h1>Pluviophile</h1>
+        <p>(n) a lover of rain; someone who finds joy and peace of mind during rainy days</p>
+    </div>
+
+    <div class="con">
+        <img src="column.PNG" id="b">
+        <img src="rain4.PNG" id="c">
+        <img src="rain6.PNG" id="d">
+        <img src="rain3.PNG" id="g">
+        <img src="main.PNG" id="e">  
+        <img src="rain2.PNG" id="f">
+        <img src="cloud.PNG" id="a">
+        <img src="rain11.PNG" id="l">
+        <img src="rain1.PNG" id="h">
+        <img src="rain5.png" id="i">
+        <img src="rain7.PNG" id="j">
+        <img src="rain8.PNG" id="k">
+        <img src="rain9.PNG" id="m">
+        <img src="rain10.PNG" id="n">
+    </div>
+
+    <footer>
+        
+        <div class="ser">
+            <h3>Services</h3>
+                <ul>
+                    <li>Web design</li>
+                    <li>Development</li>
+                    <li>Hosting</li>
+                </ul>
+            </div>
+
+        <div class="abo">
+            <h3>About</h3>
+                <ul>
+                    <li>Company</li>
+                    <li>Team</li>
+                    <li>Careers</li>
+                </ul>
+                </div>
+          
+        <div class="sum">
+            <div class="comp">    
+                <h3>Company Name</h3>
+                <p>jsbdhfiuqewfhquwefgwauibdixniofhnqwiuegfvfuygviuwqvbiuqbvcsdjbc
+                    xdhsgayhcvbdjkcnsdkcmsklcmndslkcmads;clamcjbsadv;hbfhvbsvjksna
+                    sdkhchsdbcsjdbcsjkdbnca;kjdabviusbvdusNCOWIEUGBFVISBDVSDIUVBSD
+                </p>
+                </div>
+            </div>
+        <p class="copyright">Company Name © 2018</p>
+    </footer>
+</body>
+</html>
